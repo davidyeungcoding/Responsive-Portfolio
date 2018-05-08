@@ -1,0 +1,163 @@
+.nav {
+    width: 100%;
+    background: white;
+    overflow: hidden;
+    padding: 20px;
+    margin: 0;
+    float: left;
+}
+
+ul.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links {
+    display: inline;
+    box-sizing: border-box;
+    padding: 5px 20px;
+    border-right: 1px solid #000;
+}
+
+li.nav-links:last-child {
+    border-right: none;
+}
+
+.main-content {
+    width: 900px;
+    margin: 50px auto;
+    padding: 0 30px 40px;
+    background: white;
+    overflow: auto;
+    border: 1px solid #666666;
+}
+
+h1 {
+    background-color: #4aaaa5;
+    color: white;
+    display: inline;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+    left: 16%;
+}
+
+.links {
+    float: right;
+    position: relative;
+    right: 18%;
+    display: inline;
+}
+
+#portrait {
+    width: 25%;
+    height: 25%;
+    float: left;
+    margin-right: 40px;
+}
+
+h2 {
+    clear: both;
+    color: #4aaaa5;
+}
+
+footer {
+    padding: 20px;
+    background: #666666;
+    background-size: cover;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    border-top: 5px solid #4aaaa5;
+    box-sizing: border-box;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+}
+
+.port-img {
+    margin: 15px;
+}
+
+.fillin-box {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.button {
+    color: white;
+    background-color: #4aaaa5;
+    border: none;
+    padding: 10px 20px;
+}
+
+body {
+    background-image: url("../images/concrete_seamless.png")
+}
+
+@media screen and (max-width: 980px) {
+
+    .wraper {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .nav {
+        overflow: hidden;
+    }
+
+    h1 {
+        width: 100%;
+        display: block;
+        margin: 0;
+        left: -20px;
+        top: 0;
+        text-align: center;
+        font-size: 3em;
+    }
+
+    .links {
+        width: 100%;
+        left: 31%;
+        top: 10px;
+        margin: 0;
+    }
+
+    .main-content {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .port-img {
+        left: auto;
+        right: auto;
+        display: block;
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+    
+    .port-img {
+        left: auto;
+        right: auto;
+        display: block;
+    }
+
+    .links {
+        left: auto;
+        right: auto;
+        display: block;
+        width: 100%;
+    }
+
+    #portrait {
+        left: auto;
+        right: auto;
+        display: block;
+        width: 100%;
+    }
+}
